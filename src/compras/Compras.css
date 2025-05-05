@@ -1,0 +1,15 @@
+.compras {
+    width: 20%;
+    margin: auto;
+}
+
+.compras li {
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.compras button {
+    font-size: large;
+    margin-bottom: 0.5rem;
+}

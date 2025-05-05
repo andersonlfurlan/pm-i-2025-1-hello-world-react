@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-const HelloWorld = () => {
-    let [name, setName] = useState('');
+const HelloWorld = (props) => {
+    let [name, setName] = useState(props.name);
     let [message, setMessage] = useState('');
 
     const handleHelloWorld = () => setMessage(`Hello world, ${name}!`);

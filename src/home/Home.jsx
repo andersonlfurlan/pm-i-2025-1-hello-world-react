@@ -14,6 +14,9 @@ export default function Home() {
                 <li>
                     <Link to="/imc">IMC</Link>
                 </li>
+                <li>
+                    <Link to="/compras">Lista de Compras</Link>
+                </li>
             </ul>
         </>
     )
