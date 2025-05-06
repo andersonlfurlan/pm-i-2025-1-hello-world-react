@@ -1,15 +1,36 @@
 .compras {
-    width: 20%;
+    width: 33%;
     margin: auto;
+}
+
+.compras ol {
+    padding-left: 2rem;
 }
 
 .compras li {
     text-align: left;
     font-size: x-large;
     font-weight: bold;
+     /*
+    align-items: center;
+    padding-left: 1.5rem;
+    list-style-type: decimal; */
 }
 
 .compras button {
     font-size: large;
-    margin-bottom: 0.5rem;
+}
+
+.compras .input {
+    display: flex;
+}
+
+.compras .input button {
+    padding: 1rem;
+}
+
+.compras li button {
+    padding: 0.25rem;
+    margin-left: 0.5rem;
+    font-size: small;
 }
